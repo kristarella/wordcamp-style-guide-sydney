@@ -268,7 +268,7 @@
 
         vertical-align: middle;
 
-        border-top-color: $color-link;
+        border-top-color: $color-text;
 
         content: "";
 
@@ -318,6 +318,12 @@
 .sub-menu {
 
   @include list-reset();
+
+  a:hover {
+
+    background-color: $color-link-alt-hover;
+
+  }
 
   .menu-item {
 
@@ -375,7 +381,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-invert;
+      color: $color-text-invert;
 
     }
 
