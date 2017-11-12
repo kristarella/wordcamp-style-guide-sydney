@@ -45,12 +45,12 @@
 
   .site-branding {
 
-    background-image: $site-hero-path-small;
+    background-image: $site-header-path-small;
     background-position: 50% 100%;
 
     @include breakpoint(medium) {
 
-      background-image: $site-hero-path-large;
+      background-image: $site-header-path-large;
 
     }
 
