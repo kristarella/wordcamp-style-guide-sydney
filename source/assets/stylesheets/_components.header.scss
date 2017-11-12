@@ -34,7 +34,7 @@
 
     background-image: $site-header-path-small;
     background-position: 50% 100%;
-    background-repeat: none;
+    background-repeat: no-repeat;
 
     @include breakpoint(medium) {
 

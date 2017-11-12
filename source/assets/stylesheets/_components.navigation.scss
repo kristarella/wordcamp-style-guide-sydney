@@ -200,7 +200,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-link;
+  color: $color-link-alt;
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -211,7 +211,7 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong;
+    //color: $color-text-strong;
     background-color: $color-link-hover;
 
   }
@@ -232,8 +232,8 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong;
-  background-color: $color-link;
+  color: $color-link;
+  background-color: $color-link-alt;
 
 }
 
