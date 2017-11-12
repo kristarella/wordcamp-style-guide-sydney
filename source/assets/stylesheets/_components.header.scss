@@ -34,7 +34,7 @@
 
     background-image: $site-header-path-small;
     background-position: 50% 99%;
-    background-size: ($container-max-width);
+    background-size: calc($container-max-width + 200px);
     background-repeat: no-repeat;
 
     @include breakpoint(medium) {
