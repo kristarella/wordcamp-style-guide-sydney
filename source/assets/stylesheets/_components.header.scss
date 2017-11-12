@@ -34,12 +34,20 @@
 
     //background-image: $site-header-path-small;
     background-position: 50% 99%;
-    background-size: ($container-max-width * 1.2);
     background-repeat: no-repeat;
 
     @include breakpoint(medium) {
 
       background-image: $site-header-path-large;
+      padding-bottom: ($container-unit-medium * 2.5);
+      background-size: auto ($container-unit-medium * 2.5);
+
+    }
+
+    @include breakpoint(large) {
+
+      padding-bottom: ($container-unit-medium * 3.5);
+      background-size: auto ($container-unit-medium * 3.5);
 
     }
 
