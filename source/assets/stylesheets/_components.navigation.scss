@@ -211,8 +211,8 @@
   &:focus,
   &.focus {
 
-    //color: $color-text-strong;
-    background-color: $color-link-alt-hover;
+    color: $color-link;
+    background-color: $color-link-alt;
 
   }
 
@@ -287,12 +287,12 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong;
+      color: $color-text-strong-invert;
       background-color: $color-link;
 
       &:after {
 
-        border-top-color: $color-text-strong;
+        border-top-color: $color-text-strong-invert;
 
       }
 
@@ -307,7 +307,7 @@
 
     &.current-menu-item > a:after {
 
-      border-top-color: $color-text-strong;
+      border-top-color: $color-text-strong-invert;
 
     }
 
@@ -375,7 +375,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-text;
+      color: $color-invert;
 
     }
 
