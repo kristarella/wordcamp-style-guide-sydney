@@ -23,7 +23,6 @@
 
     background-image: $site-hero-path-large;
     background-position: 50% 25%;
-    background-size: ($container-max-width);
     background-repeat: repeat-x;
     background-attachment: fixed;
 
@@ -35,6 +34,7 @@
 
     background-image: $site-header-path-small;
     background-position: 50% 99%;
+    background-size: ($container-max-width);
     background-repeat: no-repeat;
 
     @include breakpoint(medium) {
