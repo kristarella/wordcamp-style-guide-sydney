@@ -30,7 +30,7 @@
   font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
-  color: $color-link-alt;
+  color: $color-link-invert;
 
   border-radius: 0;
   background-color: rgba($color-brand-primary, .9);
@@ -42,7 +42,7 @@
   &:focus,
   &.focus {
 
-    color: $color-link-alt-hover;
+    color: $color-link-invert-hover;
     background-color: rgba($color-brand-primary, .9);
 
   }
@@ -79,7 +79,7 @@
 
   &[aria-expanded="true"] {
 
-    color: $color-link-alt;
+    color: $color-link-invert;
 
     &:after {
 
@@ -200,7 +200,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-link-alt;
+  color: $color-link-invert;
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -212,7 +212,7 @@
   &.focus {
 
     color: $color-link;
-    background-color: $color-link-alt;
+    background-color: $color-link-invert;
 
   }
 
@@ -233,7 +233,7 @@
 .current-menu-item > a {
 
   color: $color-link;
-  background-color: $color-link-alt;
+  background-color: $color-link-invert;
 
 }
 

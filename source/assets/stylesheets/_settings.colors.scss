@@ -217,7 +217,7 @@
 $color-brand-primary:             #4452b6; // blue
 $color-brand-secondary:           #c22033; // red
 $color-brand-tertiary:            #ffd144; // yellow
-$color-brand-quaternary:          #d9d9d9; // grey
+$color-brand-quaternary:          #000; // grey
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
@@ -252,21 +252,29 @@ $color-link:                 $color-brand-primary;
 $color-link-hover:           shade($color-link, 10%);
 $color-link-focus:           shade($color-link, 20%);
 $color-link-visited:         tint($color-link, 20%);
+$color-link-invert:             #fff;
+$color-link-invert-hover:           shade($color-link-invert, 10%);
+$color-link-invert-focus:           shade($color-link-invert, 20%);
+$color-link-invert-visited:         tint($color-link-invert, 20%);
 
 @include cc($color-link, 'color-link');
 @include cc($color-link-focus, 'color-link-focus');
 @include cc($color-link-hover, 'color-link-hover');
 @include cc($color-link-visited, 'color-link-visited');
+@include cc($color-link-invert, 'color-link');
+@include cc($color-link-invert-focus, 'color-link-focus');
+@include cc($color-link-invert-hover, 'color-link-hover');
+@include cc($color-link-invert-visited, 'color-link-visited');
 
 
 /*
  * Alternate links
  */
 
-$color-link-alt:             #fff;
-$color-link-alt-hover:       mix($color-link-alt, $color-link, 90%);
-$color-link-alt-focus:       mix($color-link-alt, $color-link, 70%);
-$color-link-alt-visited:     mix($color-link-alt, $color-link, 50%);
+$color-link-alt:             $color-brand-secondary;
+$color-link-alt-hover:       mix($color-link-alt, #000, 90%);
+$color-link-alt-focus:       mix($color-link-alt, #000, 70%);
+$color-link-alt-visited:     mix($color-link-alt, #000, 50%);
 
 @include cc($color-link-alt, 'color-link-alt');
 @include cc($color-link-alt-focus, 'color-link-alt-focus');
@@ -278,16 +286,16 @@ $color-link-alt-visited:     mix($color-link-alt, $color-link, 50%);
  * Shades of grey
  */
 
-$color-grey-10:                   tint($color-brand-tertiary, 90%); // Light
-$color-grey-20:                   tint($color-brand-tertiary, 80%);
-$color-grey-30:                   tint($color-brand-tertiary, 70%);
-$color-grey-40:                   tint($color-brand-tertiary, 60%);
-$color-grey-50:                   tint($color-brand-tertiary, 50%);
-$color-grey-60:                   tint($color-brand-tertiary, 40%);
-$color-grey-70:                   tint($color-brand-tertiary, 30%);
-$color-grey-80:                   tint($color-brand-tertiary, 20%);
-$color-grey-90:                   tint($color-brand-tertiary, 10%);
-$color-grey-100:                  tint($color-brand-tertiary, 0%);  // Dark
+$color-grey-10:                   tint($color-brand-quaternary, 90%); // Light
+$color-grey-20:                   tint($color-brand-quaternary, 80%);
+$color-grey-30:                   tint($color-brand-quaternary, 70%);
+$color-grey-40:                   tint($color-brand-quaternary, 60%);
+$color-grey-50:                   tint($color-brand-quaternary, 50%);
+$color-grey-60:                   tint($color-brand-quaternary, 40%);
+$color-grey-70:                   tint($color-brand-quaternary, 30%);
+$color-grey-80:                   tint($color-brand-quaternary, 20%);
+$color-grey-90:                   tint($color-brand-quaternary, 10%);
+$color-grey-100:                  tint($color-brand-quaternary, 0%);  // Dark
 
 @include cc($color-grey-10, 'color-grey-10');
 @include cc($color-grey-20, 'color-grey-20');
