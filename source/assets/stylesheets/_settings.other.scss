@@ -50,6 +50,10 @@ $site-hero-path-large:          url('https://2018.sydney.wordcamp.org/files/2017
 $site-hero-background:          tint($color-brand-primary, 90%); // Hero color background
 $site-hero-overlay:             .8; // Image overlay color opacity
 
+/* header */
+$site-header-path-small:          url('https://2018.sydney.wordcamp.org/files/2017/11/wcsyd2018.png'); // Background image
+$site-header-path-large:          url('https://2018.sydney.wordcamp.org/files/2017/11/wcsyd2018.png'); // Background image
+
 /* Media queries */
 $extra-small-value:             24em; // 384px
 $small-value:                   37.5em; // 600px

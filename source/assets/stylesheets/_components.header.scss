@@ -15,14 +15,15 @@
 
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: fixed;
+  background-attachment: fixed;
   background-image: $site-hero-path-small;
 
   @include breakpoint(medium) {
 
     background-image: $site-hero-path-large;
     background-position: 50% 50%;
-    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
 
   }
 
@@ -39,6 +40,17 @@
     background-color: rgba($site-hero-background, $site-hero-overlay);
 
     content: "";
+
+  }
+
+  .site-branding {
+
+    background-image: $site-hero-path-small;
+    background-position: 50% 100%;
+
+    @include breakpoint(medium) {
+
+      background-image: $site-hero-path-large;
 
   }
 
