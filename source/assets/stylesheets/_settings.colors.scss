@@ -264,9 +264,9 @@ $color-link-visited:         tint($color-link, 20%);
  */
 
 $color-link-alt:             #fff;
-$color-link-alt-hover:       mix($color-link-alt, #fff, 90%);
-$color-link-alt-focus:       mix($color-link-alt, #fff, 70%);
-$color-link-alt-visited:     mix($color-link-alt, #fff, 50%);
+$color-link-alt-hover:       mix($color-link-alt, $color-link, 90%);
+$color-link-alt-focus:       mix($color-link-alt, $color-link, 70%);
+$color-link-alt-visited:     mix($color-link-alt, $color-link, 50%);
 
 @include cc($color-link-alt, 'color-link-alt');
 @include cc($color-link-alt-focus, 'color-link-alt-focus');
