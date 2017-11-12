@@ -71,7 +71,7 @@
 
     vertical-align: middle;
 
-    border-top-color: $color-link-alt;
+    border-top-color: $color-text;
 
     content: "";
 
@@ -84,7 +84,7 @@
     &:after {
 
       border-top-color: transparent;
-      border-bottom-color: $color-link-alt;
+      border-bottom-color: $color-text;
 
     }
 
@@ -292,7 +292,7 @@
 
       &:after {
 
-        border-top-color: $color-text-strong-invert;
+        border-top-color: $color-text;
 
       }
 
@@ -307,7 +307,7 @@
 
     &.current-menu-item > a:after {
 
-      border-top-color: $color-text-strong-invert;
+      border-top-color: $color-text;
 
     }
 
