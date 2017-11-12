@@ -30,10 +30,10 @@
   font-weight: $bold;
   text-align: center;
   letter-spacing: .05em;
-  color: $color-link;
+  color: $color-link-alt;
 
   border-radius: 0;
-  background-color: rgba($color-brand-tertiary, .9);
+  background-color: rgba($color-brand-primary, .9);
 
   cursor: pointer;
 
@@ -42,8 +42,8 @@
   &:focus,
   &.focus {
 
-    color: $color-link-hover;
-    background-color: rgba($color-brand-tertiary, .9);
+    color: $color-link-alt-hover;
+    background-color: rgba($color-brand-primary, .9);
 
   }
 
@@ -71,7 +71,7 @@
 
     vertical-align: middle;
 
-    border-top-color: $color-link;
+    border-top-color: $color-link-alt;
 
     content: "";
 
@@ -79,12 +79,12 @@
 
   &[aria-expanded="true"] {
 
-    color: $color-link;
+    color: $color-link-alt;
 
     &:after {
 
       border-top-color: transparent;
-      border-bottom-color: $color-link;
+      border-bottom-color: $color-link-alt;
 
     }
 
@@ -129,7 +129,7 @@
 
   @include breakpoint(to-small) {
 
-    background-color: $color-brand-tertiary;
+    background-color: $color-brand-primary;
 
 
 
@@ -212,7 +212,7 @@
   &.focus {
 
     //color: $color-text-strong;
-    background-color: $color-link-hover;
+    background-color: $color-link-alt-hover;
 
   }
 
