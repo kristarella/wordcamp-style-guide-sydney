@@ -46,12 +46,12 @@ $site-logo-path:                url('https://2018.sydney.wordcamp.org/files/2017
 /* Hero */
 $site-hero-path-small:          url('https://2018.sydney.wordcamp.org/files/2017/11/clouds.png'); // Background image
 $site-hero-path-large:          url('https://2018.sydney.wordcamp.org/files/2017/11/clouds.png'); // Background image
-$site-hero-background:          tint($color-brand-primary, 90%); // Hero color background
+$site-hero-background:          tint($color-brand-primary, 80%); // Hero color background
 $site-hero-overlay:             .8; // Image overlay color opacity
 
 /* header */
 $site-header-path-small:          url('https://2018.sydney.wordcamp.org/files/2017/11/wcsyd2018.png'); // Background image
-$site-header-path-large:          url('https://2018.sydney.wordcamp.org/files/2017/11/wcsyd2018.png'); // Background image
+$site-header-path-large:          url('https://2018.sydney.wordcamp.org/files/2017/11/wcsyd2018-2x.png'); // Background image
 
 /* Media queries */
 $extra-small-value:             24em; // 384px
