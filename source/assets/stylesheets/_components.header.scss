@@ -17,6 +17,7 @@
   background-position: 50% 0;
   background-attachment: fixed;
   background-image: $site-hero-path-small;
+  background-color: rgba($site-hero-background, $site-hero-overlay);
 
   @include breakpoint(medium) {
 
@@ -29,25 +30,11 @@
 
   @include transition-fast();
 
-  &:before {
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-    background-color: rgba($site-hero-background, $site-hero-overlay);
-
-    content: "";
-
-  }
-
   .site-branding {
 
     background-image: $site-header-path-small;
     background-position: 50% 100%;
-    bacground-repeat: none;
+    background-repeat: none;
 
     @include breakpoint(medium) {
 
