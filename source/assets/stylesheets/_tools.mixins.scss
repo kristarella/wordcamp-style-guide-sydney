@@ -199,3 +199,30 @@
   }
 
 }
+
+// Header padding
+//
+// Add container padding accross resolutions with the ability to set multiplicator for top and bottom padding.
+//
+// Markup:
+// @include header-padding(1.5);
+//
+// Style guide: 3.header-padding
+
+@mixin header-padding($proportion) {
+
+  padding: $container-unit-small $container-unit-small ($container-unit-small * $proportion);
+
+  @include breakpoint(small) {
+
+    padding: $container-unit-medium $container-unit-medium ($container-unit-medium * $proportion);
+
+  }
+
+  @include breakpoint(medium) {
+
+    padding: $container-unit-large $container-unit-large ($container-unit-large * $proportion);
+
+  }
+
+}
