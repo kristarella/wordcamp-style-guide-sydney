@@ -80,3 +80,32 @@
   }
 
 }
+
+/*
+ * Header Widgets
+ *
+ *
+ */
+#header-widgets {
+
+  position: static;
+
+  & > * {
+
+    position: static;
+
+  }
+
+  .widget_search {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .search-form label {
+      display: inline-block;
+    }
+
+  }
+
+ }
